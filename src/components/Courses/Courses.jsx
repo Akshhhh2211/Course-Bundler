@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import {
   Button,
   Container,
@@ -11,7 +11,7 @@ import {
   VStack,
 } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
-import toast from 'react-hot-toast';
+// import toast from 'react-hot-toast';
 // import { getAllCourses } from '../../redux/actions/course';
 // import { addToPlaylist } from '../../redux/actions/profile';
 // import { loadUser } from '../../redux/actions/user';
@@ -86,7 +86,7 @@ const Course = ({
 
 const Courses = () => {
   const [keyword, setKeyword] = useState('');
-  const [category, setCategory] = useState('');
+  const [, setCategory] = useState('');
   // const dispatch = useDispatch();
 
   const addToPlaylistHandler = async couseId => {

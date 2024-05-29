@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Button, Container, Heading, Input, VStack } from '@chakra-ui/react';
-import toast from 'react-hot-toast';
+// import toast from 'react-hot-toast';
 // import { useDispatch, useSelector } from 'react-redux';
 // import { forgetPassword } from '../../redux/actions/profile';
 

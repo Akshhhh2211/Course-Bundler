@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Box, Grid, Heading, Text, VStack } from '@chakra-ui/react';
-import { Navigate, useParams } from 'react-router-dom';
-import Loader from '../Layout/Loader';
+// import { useParams } from 'react-router-dom';
+// import Loader from '../Layout/Loader';
 // import { useDispatch, useSelector } from 'react-redux';
 // import { getCourseLectures } from '../../redux/actions/course';
 
 const CoursePage = ({ user }) => {
 
-  const [lectureNumber, setLectureNumber] = useState(0);
-  const params = useParams();
+  const [, setLectureNumber] = useState(0);
+  // const params = useParams();
 
   const lectures = [];
 //   const { lectures, loading } = useSelector(state => state.course);

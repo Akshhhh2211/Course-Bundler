@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import {
   Box,
   Button,
@@ -7,15 +7,15 @@ import {
   Text,
   VStack,
 } from '@chakra-ui/react';
-import axios from 'axios';
-import logo from '../../assets/images/logo.png';
+// import axios from 'axios';
+// import logo from '../../assets/images/logo.png';
 // import { useDispatch, useSelector } from 'react-redux';
 // import { buySubscription } from '../../redux/actions/user';
 // import { server } from '../../redux/store';
 // import toast from 'react-hot-toast';
 
 const Subscribe = ({ user }) => {
-  const [key, setKey] = useState('');
+  // const [key, setKey] = useState('');
 
 //   const dispatch = useDispatch();
 //   const { loading, error, subscriptionId } = useSelector(

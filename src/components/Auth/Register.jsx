@@ -33,7 +33,7 @@ const Register = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [imagePrev, setImagePrev] = useState('');
-  const [image, setImage] = useState('');
+  const [, setImage] = useState('');
 
   const changeImageHandler = (e) => {
 
